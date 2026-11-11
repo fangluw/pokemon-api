@@ -19,7 +19,7 @@ let pokemons = [
 function generateRandomId() {
   let id;
   do {
-    id = Math.floor(100 + Math.random() * 900);
+    id = Math.floor(1 + Math.random() * 1000);
   } while (pokemons.some((p) => p.id === id));
   return id;
 }
